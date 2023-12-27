@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Fjalla+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&display=swap");
+
+.clients_in_homepage {
+    text-align: center;
+    font-family: "Philosopher", sans-serif;
+}
+
+.aboutContainer h2 {
+    font-family: 'DM Serif Display', serif;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+}
+
+.aboutContainer p {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+}
+
+.imagesRow img {
+    border-radius: 48px;
+    margin-bottom: 30px;
+}

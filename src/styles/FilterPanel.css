@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&display=swap");
+
+h2 {
+  /* display: flex; */
+  margin-left: 60px;
+  margin-top: 0;
+  font-family: "Philosopher", sans-serif;
+}
+.natural-title,
+.category-title,
+.price-title {
+  margin-left: 0.2rem;
+  margin-bottom: 0.4rem;
+  font-size: 1rem;
+  font-weight: 420;
+}
+.options_naturals {
+  display: flex;
+  margin-left: 0.2rem;
+}
+.price-group,
+.filter_natural {
+  margin-bottom: 0.7rem;
+}
+input[type="checkbox"] {
+  accent-color: #a67d85;
+  width: 17px;
+  height: 17px;
+  margin-left: 0;
+}
+li {
+  list-style-type: none;
+  font-weight: 400;
+}
+
+.range {
+  display: flex;
+  width: 100%;
+  font-size: 17px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  justify-content: center;
+}
+
+.MuiSlider-thumb {
+  color: #a67d85;
+}
+.MuiSlider-rail {
+  color: rgb(120, 124, 120);
+}
+.MuiSlider-track {
+  color: #a67d85;
+}

@@ -1,0 +1,30 @@
+.users_page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.title_users {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.users_page-wrap {
+  overflow-y: scroll;
+  display: flex;
+  flex: 1;
+}
+.user_page_list-wrap {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 0.1rem;
+  grid-row-gap: 2rem;
+}
+
+.edit_icon,
+.delete_icon {
+  font-size: 27px;
+  color: rgb(142, 140, 140);
+  margin-top: 7px;
+  float: right;
+}

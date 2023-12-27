@@ -1,0 +1,54 @@
+.stores_page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.stores_page-wrap {
+  overflow-y: scroll;
+  display: flex;
+  flex: 1;
+}
+
+.store_page_list-wrap {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 0.1rem;
+  grid-row-gap: 2rem;
+}
+
+.title_stores {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.add_new_store-btn {
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.addstore_popup {
+  position: fixed;
+  margin-top: 2px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+}
+
+.addstore_popup-inner {
+  border-radius: 10px;
+  position: relative;
+  width: 100%;
+  max-width: 25rem;
+  max-height: 32rem;
+  background-color: #c6a1a9;
+}
+
+.store_body {
+  margin-bottom: 100px;
+}

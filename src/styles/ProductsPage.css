@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+
+.product_page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.product_page_panelList-wrap,
+.product_page_panel-wrap {
+  overflow-y: auto;
+}
+
+.product_page_panelList-wrap {
+  display: flex;
+  flex: 1;
+}
+
+.product_page_panel-wrap {
+  display: flex;
+  background: #e1c7cd;
+  flex-basis: 280px;
+  padding: 1rem;
+}
+
+.product_page_list-wrap {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 0.1rem;
+  grid-row-gap: 2rem;
+}
+
+.searchBar-wrap {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem 1rem;
+}
+
+.searchBar-icon {
+  color: rgba(0, 0, 0, 0.7);
+  margin-right: 1rem;
+}
+
+.searchBar-wrap input {
+  font-size: 1.15rem;
+  outline: none;
+  border: none;
+  width: 100%;
+  background-color: #e1c7cd;
+  border-radius: 10px;
+}
+
+.searchBar-wrap input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-style: italic;
+  padding: 0.5rem;
+  display: flex;
+  font-size: 1.2rem;
+}
+
+.submit-btn {
+  margin-left: 40%;
+  margin-bottom: 2px;
+}

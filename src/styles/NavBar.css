@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.header_navbar {
+    background-color: #a67d85;
+    z-index: 12;
+}
+
+.nav_dropdown a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav_dropdown a:hover {
+    color: rgb(57, 57, 57);
+}
+
+.search_input {
+    background-color: #ffecf0;
+    border-radius: 18px;
+}
+
+.search_input:focus {
+    background-color: #ffecf0;
+}
+
+.nav_icon {
+    font-size: 30px !important;
+    margin-right: 10px;
+}
+
+.navbar_brand {
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px !important;
+}
+
+.categories_menu_btn {
+    background-color: transparent !important;
+    border-color: var(--bs-navbar-color) !important;
+}
+
+.categories_menu_icon {
+    background-color: transparent;
+    color: var(--bs-navbar-color);
+}
+
+.categories_menu_container {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    position: absolute;
+    top: 10% !important;
+    background-color: #e2bcc4;
+    z-index: 10;
+}
+
+.categories_menu_container ul {
+    list-style: none;
+    display: block;
+    float: left;
+    margin-left: 150px;
+}
+
+.categories_menu_container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 65px;
+}
+
+#img1_menu {
+    margin-left: 150px;
+}
+
+@media only screen and (max-width: 1026px) {
+    #menu_Categories_Container {
+        display: none !important;
+    }
+}
+
+.categoriesUl a {
+    color: black !important;
+    text-decoration: none;
+    font-size: large;
+}
+
+.categoriesUl a:hover {
+    color: rgb(77, 77, 77) !important;
+}

@@ -1,0 +1,18 @@
+.pagination {
+  justify-content: center;
+  margin-top: 0.8rem;
+  margin-bottom: 0;
+  color: #000;
+}
+.pagination a {
+  border-radius: 8px;
+  color: rgb(175, 99, 112);
+  font-size: 20px;
+  font-weight: 600;
+  background-color: rgb(246, 221, 225);
+  border-color: rgb(164, 162, 162);
+}
+
+.pagination a.active {
+  background-color: rgb(124, 36, 36);
+}

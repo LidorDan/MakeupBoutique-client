@@ -1,0 +1,67 @@
+.payment_popup {
+    z-index: 13 !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+
+}
+
+.payment_popup-inner {
+    padding: 20px 130px;
+    position: relative;
+    width: 100%;
+    max-width: 640px;
+    border-radius: 10px;
+    background-image: url(/public/Images/Backgrounds/0daaced53888163580637dae699e763e.jpg);
+    background-size: cover;
+}
+
+.payment_form_controls {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+
+.payment_form_controls input {
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.payment_form_controls label {}
+
+.close_payment_btn {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    position: absolute;
+    right: 7%;
+    color: rgb(82, 82, 82);
+}
+
+.close_payment_btn:hover {
+    color: rgb(115, 114, 114);
+}
+
+#errorLabel {
+    color: #7a2d49;
+}
+
+.card_div {
+    width: 220px;
+    height: 140px;
+    background-image: url(/public/Images/Payment/cardFront.jpg);
+    background-size: cover;
+    border-radius: 11px;
+    margin: auto;
+}
+
+.card_number_label {
+    position: relative;
+    margin-top: 60px;
+    font-size: 17px;
+    color: white;
+}

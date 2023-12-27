@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+
+.pageTitle {
+  margin-top: 10px;
+  margin-bottom: 35px;
+  font-family: "Fjalla One", sans-serif;
+  text-align: center;
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+.productImg {
+  align-items: center;
+  width: 130px;
+  height: 130px;
+  border-radius: 5%;
+}
+
+.productDelete {
+  color: #94626d;
+  cursor: pointer;
+  font-size: xx-large !important;
+}
+
+.productDelete:hover {
+  color: #683a44;
+}
+
+.listContainer {
+  margin-bottom: 150px;
+}
+
+.listContainerShoppingBag {
+  margin-bottom: 100px;
+}
+
+.submitBtnContainer {
+  margin-bottom: 20px;
+}
+.pay_now_button {
+  display: block;
+  margin: auto;
+}
+
+.btn_inc,
+.btn_dec {
+  background-color: #956a73;
+  color: #f6e0e5;
+  border: none;
+  font-size: 22px;
+}
+
+.btn_dec {
+  display: flex;
+  margin-right: 7px;
+}
+
+.btn_inc {
+  display: flex;
+  margin-left: 7px;
+}

@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&display=swap");
+
+.modal_content {
+    background-image: url(/public/Images/Backgrounds/backOfAd.jpg);
+    height: 450px;
+    background-size: cover;
+}
+
+.footer_modal label {
+    font-family: "Philosopher", sans-serif;
+    color: rgb(67, 13, 50) !important;
+    display: block;
+    margin: auto;
+}
