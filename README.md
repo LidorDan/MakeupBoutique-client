@@ -1,7 +1,7 @@
 
 ## Welcome to Makeup Boutique!
 
-*here you can discover and explore a wide range of makeup and cosmetic products.*
+*Here you can discover and explore a wide range of makeup and cosmetic products.*
 
 
 ## Features
